@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div>
-        <input id="city-input" type="text" placeholder="Enter city Name">
-        <button id="search-button">Search</button>
+  <div class="container">
+    <div class="input-group">
+      <input id="city-input" type="text" placeholder="Enter city name" />
+      <button id="search-button">Search</button>
     </div>
-    <div>
-        <h3 id="cityname">Jamshedpur</h3>
-        <h6 id="citytime">localtime</h6>
-        <p id="citytemp">33</p>
+    <div class="weather-info">
+      <h3 id="cityname">Jamshedpur</h3>
+      <h6 id="citytime">localtime</h6>
+      <p id="citytemp">33</p>
     </div>
-    <script src="./script.js"></script>
+  </div>
+  <script src="./script.js"></script>
 </body>
 </html>
